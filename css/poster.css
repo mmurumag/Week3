@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 * {
-    margin: 0/*your code here*/;
-    padding: 0/*your code here*/;
-    /*your code here*/box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -35,7 +35,13 @@ html {
     height: 500px/*your code here*/;
     border-radius: 6px/*your code here*/;
     cursor: pointer;
+
 }
+
+img{
+    transition: all 2s;
+}
+
 .movie-poster:hover {
     transform: scale(1.1);
     box-shadow: 10px 10px 10px -5px pink;
